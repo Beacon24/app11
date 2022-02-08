@@ -15,7 +15,11 @@ Version 0.11 of the Beacon App
       I’m currently working on ... Finishing the basic schemas and CRUD functions of inititial app. 
       Soon to be learning how to implement search/filtering of users, groups, and initiatives, with display on mapbox map.
 
-      I’m looking for ... More experienced programmers who see the meritts of this project or just want to help out a newbie. Getting through bugs and breaks is             easier with support, so having some folks willing to point me in the right direction, maybe have a conversation now and then, would speed me along my               way. And if you're looking to volunteer your time for a non-profit organization and mission, I would happily share some of the technical load.
+      I’m looking for ... More experienced programmers who see the meritts of this project or just want to help out a newbie. 
+      Getting through bugs and breaks is easier with support, so having some folks willing to point me in the right direction, 
+      maybe have a conversation now and then, would speed me along my way. 
+      And if you're looking to volunteer your time for a non-profit organization and mission, 
+      I would happily share some of the technical load.
  
       How to reach me ... jdubin@thebeaconnetwork.org. Check out our website, thebeaconnetwork.org.
 
