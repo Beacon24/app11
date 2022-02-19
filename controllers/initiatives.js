@@ -17,11 +17,10 @@ module.exports.renderNewInit = (req, res) => {
     res.render('initiatives/new')
 }
 
-module.exports.createInitiative = async (req, res) => {
-    //if clause
+module.exports.createInitiative = async (req, res, next) => {
     //const group = await Group.findById(req.params.id);
     console.log('---------------req.body');
-    console.log(req.body);
+    console.log(req.body.initiative);
     const initiative = new Initiative(req.body.initiative);
     // const geoData = await geocoder.forwardGeocode({
     //     query: initiative.location,
@@ -30,7 +29,7 @@ module.exports.createInitiative = async (req, res) => {
     // geoData.body.features[0].geometry.coordinates
     // initiative.geometry = geoData.body.features[0].geometry;
     console.log('initiative')
-    console.log(initiative.creator)
+    console.log(initiative)
     initiative.creator = req.user._id;
     //group.initiatives.push(initiative);
     await initiative.save();
