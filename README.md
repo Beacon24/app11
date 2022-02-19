@@ -1,6 +1,14 @@
 # app11
 Version 0.11 of the Beacon App
 
+App is run through node, install with 
+npm init -y
+and run with 
+nodemon index.js
+
+
+    
+
 
     Hi, I'm Jared, and I'm working on programming a social network utility devoted to community connection and action, instead of profits and capturing attention. 
       ~Read more about what I'm working on at www.thebeaconnetwork.org.
